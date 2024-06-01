@@ -44,16 +44,37 @@ filtered by vendor IDs between 8 and 10 (inclusive) using either:
 	2.  one condition using BETWEEN
 */
 -- option 1
-
+SELECT
+    *,
+    quantity * cost_to_customer_per_qty AS price
+FROM
+    customer_purchase
+WHERE
+    vendor_id = 8 
+    AND vendor_id = 9
+    AND vendor_id = 10
 
 -- option 2
+SELECT
+    *,
+    quantity * cost_to_customer_per_qty AS price
+FROM
+    customer_purchase
+WHERE
+    vendor_id BETWEEN 8 AND 10
 
 --CASE
 /* 1. Products can be sold by the individual unit or by bulk measures like lbs. or oz. 
 Using the product table, write a query that outputs the product_id and product_name
 columns and add a column called prod_qty_type_condensed that displays the word “unit” 
 if the product_qty_type is “unit,” and otherwise displays the word “bulk.” */
-
+	
+SELECT
+    *,
+    quantity * cost_to_customer_per_qty AS price
+FROM
+    product
+WHERE
 
 /* 2. We want to flag all of the different types of pepper products that are sold at the market. 
 add a column to the previous query called pepper_flag that outputs a 1 if the product_name 
