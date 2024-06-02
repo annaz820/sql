@@ -17,6 +17,7 @@ Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
 ```
+Yes. These are infomation that are identifiable factors for customers and once leak, might result in people's privacy being violated, especially for the one that keeps changes. 
 
 ## Question 4
 Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
@@ -25,6 +26,11 @@ Highlight at least two differences between it and your ERD. Would you change any
 ```
 Your answer...
 ```
+1. Mine does not have any schemas.
+2. Mine does not mark any primary & foreign key.
+3. Most of my tables only have 1-2 foreign keys.
+
+I will not change anything in mine because the bookstore database is clear and straightforward.
 
 # Criteria
 
