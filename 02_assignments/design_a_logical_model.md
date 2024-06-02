@@ -17,6 +17,7 @@ Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
 ```
+Yes. These are infomation that are identifiable factors for customers and once leak, might result in people's privacy being violated.  
 
 ## Question 4
 Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
