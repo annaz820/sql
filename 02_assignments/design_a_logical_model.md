@@ -26,6 +26,11 @@ Highlight at least two differences between it and your ERD. Would you change any
 ```
 Your answer...
 ```
+1. Mine does not have any schemas.
+2. Mine does not mark any primary & foreign key.
+3. Most of my tables only have 1-2 foreign keys.
+
+I will not change anything in mine because the bookstore database is clear and straightforward.
 
 # Criteria
 
